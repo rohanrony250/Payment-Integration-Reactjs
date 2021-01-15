@@ -6,6 +6,9 @@ function App()
   return (
     <div className='page'>
       <HeaderComponent />
+      <div className='text-white'>
+        hi
+      </div>
     </div>
   );
 }
