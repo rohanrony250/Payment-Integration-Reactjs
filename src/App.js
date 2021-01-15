@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
 import HeaderComponent from './components/header-component/header-component';
+import {Switch,Route} from 'react-router-dom';
 import AboutSec from './components/about/about-component';
-import IconComponent from './components/Serve/icons-component';
-import FooterComponent from './components/footer/footer-component';
+import DonatePage from './pages/donation-page/donation-component';
 
 function App() 
 {
@@ -11,9 +11,11 @@ function App()
     
     <div>
       <HeaderComponent />
-      <AboutSec />
-      <IconComponent />
-      <FooterComponent />
+        
+        <Switch>
+          <Route exact path='/' component={AboutSec}/>
+          <Route path='/donate' component={DonatePage}/>
+        </Switch>
     </div>
 
       

@@ -9,14 +9,14 @@ const FooterComponent = () =>
            <Row className='p-5'>
                 <Col className='footer-heading'>
                     <span>
-                        Created with <i class="fa fa-heart pulse"></i> by Rohan Rony
+                        Created with <i className="fa fa-heart pulse"></i> by Rohan Rony
                     </span>
                 </Col>
            </Row>
            <Row className='pb-4'>
                 <Col>
-                    <a href="https://github.com/rohanrony250/Payment-Integration-Reactjs" target='_blank'>
-                        <i class="fab fa-github fa-4x github"></i>
+                    <a href="https://github.com/rohanrony250/Payment-Integration-Reactjs" target='_blank' rel='noreferrer'>
+                        <i className="fab fa-github fa-4x github"></i>
                     </a>
                 </Col>
            </Row>

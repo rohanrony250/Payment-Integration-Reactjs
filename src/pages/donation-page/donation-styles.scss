@@ -1,0 +1,12 @@
+#donate
+{
+    .button1
+    {
+        font-size: 3rem;
+        margin: 10px 0px;
+        &:hover
+        {
+            transform: scale(1.1);
+        }
+    }
+}
