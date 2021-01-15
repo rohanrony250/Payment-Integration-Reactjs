@@ -7,7 +7,9 @@ const IconComponent = () =>
         <div className='container'>
             <div className='row pt-3'>
                 <div className='col-md-4 text-center text-success'>
-                    <i className="fas fa-donate fa-4x"></i>
+                    <a href="">
+                        <i className="fas fa-donate fa-4x donate text-success"></i>
+                    </a>
                     <h3>
                         DONATE
                     </h3>
@@ -15,8 +17,8 @@ const IconComponent = () =>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, deleniti!
                     </p>
                 </div>
-                <div className='col-md-4 text-center text-danger'>
-                    <i className="fas fa-heart fa-4x"></i>
+                <div className='col-md-4 text-center text-danger icon2'>
+                    <i className="fas fa-heart fa-4x heart"></i>
                     <h3>
                         SUPPORT
                     </h3>
@@ -24,7 +26,7 @@ const IconComponent = () =>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, deleniti!
                     </p>
                 </div>
-                <div className='col-md-4 text-center text-warning'>
+                <div className='col-md-4 text-center text-warning icon3'>
                     <i className="far fa-handshake fa-4x"></i>                   
                     <h3>
                         PURPOSE-DRIVEN
@@ -35,6 +37,7 @@ const IconComponent = () =>
                 </div>
             </div>
         </div>
+        <hr className='bg-danger'/>
     </section>
 )
 

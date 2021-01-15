@@ -8,12 +8,12 @@ const HeaderComponent = () =>
 
     <header id='page-header'>
         <div className='container-fluid' id='page-headerr'>
-            <div className='row p-5'>
-                <div className='col-md-6 text-center text-white'>
+            <div className='row pt-5'>
+                <div className='col-lg-6 text-center text-white'>
                     <h2 className='neon1'>
                         "The best way to find yourself is to lose yourself in the service of others."
                     </h2>
-                    <small>-Mahatma Gandhi</small>
+                    <small className='neon2'>-Mahatma Gandhi</small>
                 </div>
             </div>
         </div>  
