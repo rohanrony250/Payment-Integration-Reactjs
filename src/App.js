@@ -1,14 +1,13 @@
 import React from 'react';
 import './App.css';
 import HeaderComponent from './components/header-component/header-component';
+import AboutSec from './components/about/about-component'
 function App() 
 {
   return (
     <div className='page'>
       <HeaderComponent />
-      <div className='text-white'>
-        hi
-      </div>
+      <AboutSec />
     </div>
   );
 }
