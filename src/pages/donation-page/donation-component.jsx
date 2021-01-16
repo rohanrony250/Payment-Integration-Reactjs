@@ -1,5 +1,4 @@
 import React from 'react';
-import HeaderComponent from '../../components/header-component/header-component';
 import './donation-styles.scss';
 import {Col,Row,Container,Button} from 'react-bootstrap';
 import  pic2  from '../../resources/image1.jpg';
@@ -35,7 +34,7 @@ const DonatePage = () =>
                             width ={562}
                             className="img-fluid"
                             src={pic2}
-                            alt="Generic placeholder"
+                            alt="children"
                         />
                     </Col>
                     <Col md={2} className='py-5'> 
@@ -43,7 +42,7 @@ const DonatePage = () =>
                             
                             className="img-fluid"
                             src={pic3}
-                            alt="Generic placeholder"
+                            alt="children"
                         />
                     </Col>
                     <Col md={2} className='py-5'>
@@ -51,7 +50,7 @@ const DonatePage = () =>
                             
                             className="img-fluid"
                             src={pic4}
-                            alt="Generic placeholder"
+                            alt="children"
                         />
                     </Col>
                 </Row>

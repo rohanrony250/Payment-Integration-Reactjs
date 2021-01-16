@@ -11,7 +11,6 @@ function App()
     
     <div>
       <HeaderComponent />
-        
         <Switch>
           <Route exact path='/' component={AboutSec}/>
           <Route path='/donate' component={DonatePage}/>

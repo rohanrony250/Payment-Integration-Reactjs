@@ -1,0 +1,25 @@
+#navbar
+{
+    
+    .option
+    {
+        background-color: transparent !important;
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-heading
+    {
+    
+        text-decoration: none !important;
+        color: black;
+        font-size: 170%;
+        font-weight: 900;
+    }
+    .options
+    {
+        text-decoration: none !important;
+        color: black;
+        font-size: 150%;
+        font-weight: 900;
+    }
+}
