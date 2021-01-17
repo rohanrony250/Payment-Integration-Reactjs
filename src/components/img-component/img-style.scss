@@ -1,0 +1,8 @@
+.imges1,.imges2 ,.imges3 ,.imges4
+    {
+        &:hover
+        {
+            transform: scale(1.1);
+            transition: transform 1s cubic-bezier(0.25,0.45,0.45,0.95);
+        }
+    }

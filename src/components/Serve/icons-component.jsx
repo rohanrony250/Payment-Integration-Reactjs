@@ -2,7 +2,6 @@ import React from 'react';
 import './icons-styles.scss';
 import {Col,Row,Container} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import FooterComponent from '../footer/footer-component';
 const IconComponent = () =>
 (
     <div>
@@ -42,7 +41,6 @@ const IconComponent = () =>
             </Container>
             <hr className='bg-danger hr'/>
         </section>
-        <FooterComponent/>
     </div>
 )
 
