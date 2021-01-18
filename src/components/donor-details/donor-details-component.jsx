@@ -33,7 +33,7 @@ class DonorDetails extends React.Component
     {
         return(
             <div className='donor-details'>
-                <form onSubmit ={this.handleSubmit}>
+                <form onSubmit={this.handleSubmit}>
                     <FormComponent 
                         name = 'name'
                         type= 'text'
@@ -67,11 +67,11 @@ class DonorDetails extends React.Component
                         required
                     /> */}
                     
-                    
-                    <ScriptTag src="https://checkout.razorpay.com/v1/payment-button.js" 
-                    data-payment_button_id="pl_GQpHfzGbrBrz4D" async>
-
-                     </ScriptTag>
+                    <form onClick={this.handleSubmit}>
+                        <ScriptTag src="https://checkout.razorpay.com/v1/payment-button.js" 
+                            data-payment_button_id="pl_GQpHfzGbrBrz4D" async>
+                        </ScriptTag>
+                    </form>
                      <small className='text-muted'>
                         Amount is charged in Indian Rupees(INR), please use the following test data as Card credentials.
                     </small>
