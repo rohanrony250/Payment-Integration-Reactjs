@@ -1,7 +1,7 @@
 import React from 'react'
-import PaymentButton from '../stripe-component/stripe-component';
+//import PaymentButton from '../stripe-component/stripe-component';
 import FormComponent from '../../components/form-component/form-component';
-
+import ScriptTag from 'react-script-tag';
 class DonorDetails extends React.Component
 {
     constructor(props)
@@ -50,7 +50,7 @@ class DonorDetails extends React.Component
                         handleChange = {this.handleChange}
                         required
                     />
-                    <FormComponent 
+                    {/* <FormComponent 
                         name = 'contact'
                         type= 'text'
                         label='CONTACT NUMBER :'
@@ -65,8 +65,27 @@ class DonorDetails extends React.Component
                         value = {this.state.price}
                         handleChange = {this.handleChange}
                         required
-                    />
-                    <PaymentButton price={this.state.price}/>
+                    /> */}
+                    
+                    
+                    <ScriptTag src="https://checkout.razorpay.com/v1/payment-button.js" 
+                    data-payment_button_id="pl_GQpHfzGbrBrz4D" async>
+
+                     </ScriptTag>
+                     <small className='text-muted'>
+                        Amount is charged in Indian Rupees(INR), please use the following test data as Card credentials.
+                    </small>
+                    <small className='text-muted d-block'>
+                        Card Number : 4111 1111 1111 1111
+                    </small>
+                    <small className='text-muted d-block'>
+                        Expiry Date : any date from the current date
+                    </small>
+                    <small className='text-muted d-block pb-2'>
+                        CVV : any three digit number 
+                    </small>
+                    
+                    {/* <PaymentButton price={this.state.price}/> */}
                 </form>
             </div>
         )

@@ -1,6 +1,6 @@
 import React from 'react';
 import './header-styles.scss';
-import pic1 from '../../resources/image5.jpg'
+//import pic1 from '../../resources/image5.jpg'
 import CustomDiv from '../custom-div/custom-div-component';
 import {Col,Row,Container} from 'react-bootstrap';
 import NavbarComponent from '../navbar/navbar-component';
@@ -8,7 +8,7 @@ const HeaderComponent = () =>
 (
     <div>
         
-        <header id='page-header' style={{backgroundImage: `url(${pic1})`}}>
+        <header id='page-header'>
             <NavbarComponent />
             <Container fluid>
                 <Row className='pt-5'>
@@ -33,6 +33,6 @@ const HeaderComponent = () =>
 
 export default HeaderComponent
 
-
+// style={{backgroundImage: `url(${pic1})`}}
 
 

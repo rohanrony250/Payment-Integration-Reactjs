@@ -2,8 +2,8 @@
 {
     top: -20px;
     font-size: 15px;
-    color: white;
-    text-shadow: 0 0 20px #ff005b;   
+    color: salmon;
+    //text-shadow: 0 0 20px #ff005b;   
 }
 
 .group
@@ -41,7 +41,7 @@
         pointer-events: none;
         left: 5px;
         top: 10px;
-        transition: 300ms ease all;
+        transition: 250ms ease all;
         &.shrink
         {
             @include shrinkLabel();
