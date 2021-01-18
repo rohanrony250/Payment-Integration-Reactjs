@@ -1,23 +1,22 @@
 import React from 'react'
 import './navbar-styles.scss'
 import {Container} from 'react-bootstrap';
+import plogo from '../../resources/nav-logo.jpg';
 import { Link } from 'react-router-dom';
 const NavbarComponent = () =>
-(
-    <div id='navbar' className='pt-1'>
-        
-            <Container className='option'>
-                    <Link to='/' className='nav-heading'>
-                        GRIP DONOR
-                    </Link>
-                <div>
-                    <Link to='/donate'  className='options'>
-                        DONATION
-                    </Link>
-                </div>
-            </Container>
+(            
+             <Container className='option text-center' fluid>
+                    <Link to='/'>
+                        <img src={plogo} alt="" width='150' className='logo'/>
+                    </Link>        
+            </Container> 
+            
     
-    </div>
 )
 
 export default NavbarComponent
+
+
+
+
+            

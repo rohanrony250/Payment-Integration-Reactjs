@@ -1,27 +1,22 @@
-#navbar
-{
+
     
     .option
     {
-        background-color: transparent !important;
-        display: flex;
-        justify-content: space-between;
+        background-color: transparent;
+        
+        
     }
-    .nav-heading
+    .logo
     {
+        border-radius: 48%;
+        position: relative;
+        top: 10px;
+        &:hover{
+            transform: scale(1.1);
+            transition: transform ease-in;
+        }
+    }
     
-        text-decoration: none !important;
-        color: black;
-        text-shadow: 0 0 20px #5be723;
-        font-size: 170%;
-        font-weight: 900;
-    }
-    .options
-    {
-        text-decoration: none !important;
-        color: black;
-        text-shadow: 0 0 20px #5be723;
-        font-size: 150%;
-        font-weight: 900;
-    }
-}
+
+
+

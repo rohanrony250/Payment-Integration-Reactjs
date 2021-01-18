@@ -10,13 +10,13 @@ const HeaderComponent = () =>
         
         <header id='page-header'>
             <NavbarComponent />
-            <Container fluid>
-                <Row className='pt-5'>
-                    <Col lg={6} className='text-center text-white'>
+            <Container fluid className='mt-5'>
+                <Row>
+                    <Col className='text-center text-light pt-5'>
                         <h3 className='neon1'>
-                            "The best way to find yourself is to lose yourself in the service of others."
+                            "THE BEST WAY TO FIND YOURSELF IS TO LOSE YOURSELF IN THE SERVICE OF OTHERS."
                         </h3>
-                        <small className='neon2'>-Mahatma Gandhi</small>
+                        <small className='neon2'>-MAHATMA GANDHI</small>
                     </Col>
                 </Row>
             </Container>
