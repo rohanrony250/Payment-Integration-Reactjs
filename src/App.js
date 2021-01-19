@@ -11,7 +11,7 @@ function App()
   return (
     
     <div>
-      {/* <NavbarComponent /> */}
+      
       <HeaderComponent />
         <Switch>
           <Route exact path='/' component={AboutSec}/>

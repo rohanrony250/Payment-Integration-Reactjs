@@ -3,11 +3,12 @@
    background: url('../../resources/image5.jpg');
    background-repeat: no-repeat;
    background-attachment: fixed;
-   height: 550px;
+   height: 500px;
    background-position:0 -70px; 
    position: relative;
    overflow: hidden;
    background-size: cover;
+   
    
  
    
@@ -29,4 +30,11 @@
    
    
 }
+
+@media only screen and (max-device-width: 1366px)
+   {
+      #page-header{
+         background-attachment: scroll;
+      }
+   }
 
