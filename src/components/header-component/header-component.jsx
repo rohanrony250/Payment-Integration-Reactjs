@@ -10,9 +10,9 @@ const HeaderComponent = () =>
         
         <header id='page-header'>
             <NavbarComponent />
-            <Container fluid className='mt-5'>
+            <Container fluid className='mt-4'>
                 <Row>
-                    <Col className='text-center text-light pt-5'>
+                    <Col className='text-center text-light pt-4'>
                         <h3 className='neon1'>
                             "THE BEST WAY TO FIND YOURSELF IS TO LOSE YOURSELF IN THE SERVICE OF OTHERS."
                         </h3>
