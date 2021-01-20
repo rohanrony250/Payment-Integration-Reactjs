@@ -83,10 +83,10 @@ class DonorDetails extends React.Component
                     
                     {/* <PaymentButton price={this.state.price}/> */}
                 </form>
-                <form onClick={this.handleSubmit}>
-                        <ScriptTag src="https://checkout.razorpay.com/v1/payment-button.js" 
-                            data-payment_button_id="pl_GQpHfzGbrBrz4D" async>
-                        </ScriptTag>
+                <form onClick = {this.handleSubmit}>
+                    
+                    <ScriptTag src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_GQpHfzGbrBrz4D" async> </ScriptTag> 
+                
                 </form>
             </div>
         )
