@@ -1,4 +1,5 @@
-This is a simple project that I did inorder to test what I've learnt in react so far. The site has a simple donate button on its homepage, upon clicking , user will be prompted to a new page wherein the user can make donations using the integrated payment-gateway. By building this site , I now have a better understanding of states, lifecycle methods, react router. Will be implementing new changes as I progress further.
+##GDONOR
+GDONOR is a simple project that I did inorder to test what I've learnt in react so far. The site has a simple donate button on its homepage, upon clicking , user will be prompted to a new page wherein the user can make donations using the integrated payment-gateway. By building this site , I now have a better understanding of states, lifecycle methods, react router. Will be implementing new changes as I progress further.
 Cheers!
 
 # Getting Started with Create React App
